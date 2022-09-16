@@ -1,0 +1,2 @@
+DOM: a tree of objects that help you change a document
+Event listeners: an event handler add to an element

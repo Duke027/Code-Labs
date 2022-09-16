@@ -1,0 +1,4 @@
+//data types: different types of values
+//operators: allows terms to be defined
+//Conditonal statements: allows code to run if it applies to a specific condition
+//loops: repeats a piece of code
