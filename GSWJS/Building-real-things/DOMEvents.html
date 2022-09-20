@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <button class="btn btn-danger" onclick="goCoocoo()">
+        go coocoo
+    </button>
+</div>
+
+<div class="jumbotron text-center">
+    <button class="btn btn-danger coffee-btn" onclick="goCoocoo()">
+        get coffee
+    </button>
+</div>
+
+    <script>
+        // 1 grab elements from the DOM
+        // 2 attach event listeners
+
+        
+
+        function goCoocoo() {
+            document.body.style.backgroundColor = '#C00C00';
+        }
+
+
+        const coffeeButton = document.querySelector('.coffee-btn');
+        coffeeButton.onclick = function() {
+            function goCoocoo() {
+            document.body.style.backgroundColor = '#C0FFEE';
+        }
+        }
+    </script>
+</body>
+</html>
