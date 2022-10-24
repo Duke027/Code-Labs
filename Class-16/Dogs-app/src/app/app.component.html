@@ -1,0 +1,20 @@
+<h1>Dogs app</h1>
+
+<div *ngFor="let dog of dogs">
+  <div>{{dog.name}}</div>
+  <div>{{dog.age}}</div>
+</div>
+
+<div>
+  <!-- event binding -->
+  <input type="text" (input)="onResizeImage($event)">
+</div>
+
+<div>
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.x-BERzxMacnKkhqMH0MMPQHaFj%26pid%3DApi&f=1&ipt=2d5a30dfeddec3fdb378e55fccc8d76888e1f12fefeeb12f79938eb1750b4054&ipo=images"
+  alt=""
+  [width]="width"
+  [height]="height">
+</div>
+
+
