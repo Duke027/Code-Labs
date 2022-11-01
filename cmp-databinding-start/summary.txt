@@ -1,0 +1,4 @@
+Splitting apps into components:pretty self explanitory. use multiple components to split your app into multiple parts.
+binding to custom properties:grab defined properties from other files using the property name as long as the property is public.
+assigning an alias to custom properties: you can basically give your component properties their own names. this makes the element require to be called by said name.
+binding to custom events: changing the event name to name: serverdata.serverName makes the stuff work
